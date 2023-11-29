@@ -71,8 +71,8 @@ html, body {
 }
 body {
 	background: #151515;
-	font-family: "lora-regular", serif;
-	font-size: 1.7rem;
+	font-family: "poppins-regular", sans-serif !important;
+	font-size: 16px;
 	line-height: 3rem;
 	color: #6e6e6e;
 }
@@ -153,7 +153,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "lora-regular", serif;
+	font-family: "poppins-regular", sans-serif !important;
 	font-size: 2rem;
 	line-height: 1.8;
 	color: #888888;
@@ -1026,7 +1026,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: #7d7d7d;
 }
 .section-intro {
-	max-width: 700px;
+	max-width: 850px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -1491,7 +1491,7 @@ header .logo a {
  */
 #about {
 	background: #FFFFFF;
-	padding-top: 12rem;
+	padding-top: 4rem;
 	padding-bottom: 1rem;
 }
 #about .section-intro {
@@ -1622,7 +1622,7 @@ header .logo a {
  */
 #resume {
 	padding-top: 3rem;
-	padding-bottom: 12rem;
+	padding-bottom: 2rem;
 }
 
 #resume .resume-header {
@@ -2251,8 +2251,8 @@ header .logo a {
  */
 #contact {
 	background: #151515;
-	padding-top: 12rem;
-	padding-bottom: 7.2rem;
+	padding-top: 4rem;
+	padding-bottom: 0rem;
 }
 #contact .section-intro h1 {
 	color: white;
@@ -2409,7 +2409,7 @@ header .logo a {
 	display: block;
 }
 .contact-info {
-	margin: 4.8rem auto 0;
+	margin: 0rem auto 0;
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
 	text-align: center;
@@ -2605,11 +2605,12 @@ footer .copyright span:last-child::after {
 .kc_menu_title{
 	color: #38aea9 !important;
 	font-size: 18px !important;
-	font-weight: 600 !important;
+	font-weight: 500 !important;
 	font-family: "poppins-medium", sans-serif !important;
 }
 .kc_main_navigations{
 	text-align: right !important;
+	margin-right: 6rem;
 }
 .kc_main_navigations ul > li {
     display: inline-block;
@@ -2631,11 +2632,34 @@ footer .copyright span:last-child::after {
 	}
  }
  .project-list div p{
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: 600;
+	font-family: "poppins-regular", sans-serif !important;
  }
 
 .kc_linkedin{
 	font-size: 16px !important;
 	color: #6e6e6e !important;
+}
+
+.active {
+	 background-color: rgba(0, 0, 0, 0.8);
+	 margin-right : 0;
+	 padding: 0 6rem 1px 0;
+}
+.mr-10{
+	margin-right: 10px;
+}
+
+.menu-icon{
+	font-weight: 500;
+}
+
+.file-center{
+	align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.file-center a:hover, a:focus, a:active{
+	color: #000000;
 }

@@ -204,6 +204,19 @@
       });
 
   	});  
+
+	  $(function() {
+		$(window).on("scroll", function() {
+			
+			if($(window).scrollTop() > 730) {
+				console.log(".........")
+				$(".kc_main_navigations").addClass("active");
+			} else {
+				//remove the background property so it comes transparent again (defined in your css)
+			   $(".kc_main_navigations").removeClass("active");
+			}
+		});
+	});
   
 
    /*---------------------------------------------------- */
